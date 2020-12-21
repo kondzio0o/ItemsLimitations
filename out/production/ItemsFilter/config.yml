@@ -1,0 +1,36 @@
+#Made by StivenFocs - @isStiven on Telegram
+notifyupdate:
+messages:
+  invalidsubcommand: "&c* &7This subcommand isn't registered."
+  reload: "&a* &7Config reloaded successfully"
+  noperm: "&c* &7You have not permission to execute this command"
+nohit:
+  enabled: false
+  message: "&eYou can't hit with this item"
+  whitelist: false
+  items:
+    - 346
+deathdrop:
+  enabled: false
+  whitelist: false
+  items:
+    - 46
+    - 327
+inventorysave:
+  enabled: false
+  inventories:
+    'Disposal':
+      whitelist: false
+      message: "&c* &7You cannot put this item here"
+      items:
+        - 264
+        - 265
+        - 266
+nodrop:
+  enabled: false
+  message: "&c* &7You cannot drop this item"
+  whitelist: false
+  items:
+    - 46
+    - 327
+    - 259

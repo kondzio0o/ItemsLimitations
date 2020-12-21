@@ -1,0 +1,14 @@
+name: ItemsLimitations
+version: 1.0
+main: itemslimitations.stiven.Main
+author: StivenFocs
+description: "This plugin helps you to limit players items using."
+commands:
+    itemslimitations:
+        description: "Main command of the plugin"
+permissions:
+    itemslimitations.cmd:
+        description: "Allows to use the Main command of the plugin"
+        default: op
+    itemslimitations.bypass:
+        description: "Allows to bypass only some of filter settings"
