@@ -12,11 +12,15 @@ public class Main extends JavaPlugin {
     }
 
     public void onEnable() {
-        plugin = this;
+        instance = this;
+
         int pluginId = 9707;
-        Metrics metrics = new Metrics(this, pluginId);
+        new Metrics(this, pluginId);
+
         getCommand("itemslimitations").setExecutor(new Commands());
+
         Bukkit.getPluginManager().registerEvents(new Events(), this);
+
         checkConfig();
     }
 
