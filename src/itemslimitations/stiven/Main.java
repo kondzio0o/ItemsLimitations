@@ -14,13 +14,8 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         instance = this;
 
-        int pluginId = 9707;
-        new Metrics(this, pluginId);
-
         getCommand("itemslimitations").setExecutor(new Commands());
-
         Bukkit.getPluginManager().registerEvents(new Events(), this);
-
         checkConfig();
     }
 
