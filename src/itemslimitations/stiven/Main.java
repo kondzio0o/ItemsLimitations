@@ -6,8 +6,10 @@ import java.io.File;
 
 public class Main extends JavaPlugin {
 
-    private static Main plugin;
-    public static Main getMain() { return plugin; }
+    private static Main instance;
+    public static Main getMain() {
+        return instance;
+    }
 
     public void onEnable() {
         plugin = this;
