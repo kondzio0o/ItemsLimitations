@@ -34,3 +34,13 @@ nodrop:
     - 46
     - 327
     - 259
+    limits:
+- item: GOLDEN_APPLE
+    max_amount: 5
+    per_player: true
+    message: "&cOnly 1 golden apple allowed per player!"
+
+- item: GOLDEN_APPLE:1
+    max_amount: 2
+    per_player: true
+    message: "&cOnly 1 enchanted golden apple allowed per player!"
